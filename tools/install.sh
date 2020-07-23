@@ -1,5 +1,4 @@
 #!/bin/sh
-CURRENT_PATH=$(pwd)
 REPO_URL=${REPO_URL:-https://github.com/efeligne/blank-js-environment.git}
 echo "Enter new project name:"
 
@@ -13,8 +12,8 @@ if [ -n "$PROJECT_NAME" ]; then
 	git init 
 	git add .
 	git commit -am "Init project."
+	rm -rf tools
 else
-	echo -n "Ничего не введено! Завершение работы!"
-	cd $CURRENT_PATH
+	echo -n "Nothing entered! Script will be stopped!"
 fi
 exit 0
