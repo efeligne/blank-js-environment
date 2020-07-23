@@ -5,7 +5,7 @@
 # JS-modules and dependencies
 node_modules/
 
-# Bulding files
+# Building files
 dist/
 
 # MacOS specify file
