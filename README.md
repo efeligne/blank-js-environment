@@ -2,17 +2,13 @@
 
 ## Setup
 
-Clone the repository:
-    
-    git clone https://github.com/efeligne/blank-js-environment.git my-project
-    
-Open project directory:
-    
-    cd my-project
-    
-Install dependencies: 
-    
-    npm install
+Via curl:
+
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/efeligne/blank-js-environment/master/tools/install.sh)"
+
+Via wget:
+
+    sh -c "$(wget -O- https://raw.githubusercontent.com/efeligne/blank-js-environment/master/tools/install.sh)"
     
 ## Run scripts
 
