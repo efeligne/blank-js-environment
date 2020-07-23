@@ -8,6 +8,7 @@ read PROJECT_NAME
 if [ -n "$PROJECT_NAME" ]; then
 	git clone $REPO_URL $PROJECT_NAME
 	cd $PROJECT_NAME
+	mkdir __tests__
 	rm -rf .git
 	git init 
 	git add .
