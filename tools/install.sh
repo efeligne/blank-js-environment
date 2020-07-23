@@ -9,10 +9,10 @@ if [ -n "$PROJECT_NAME" ]; then
 	cd $PROJECT_NAME
 	mkdir __tests__
 	rm -rf .git
+	rm -rf tools
 	git init 
 	git add .
 	git commit -am "Init project."
-	rm -rf tools
 else
 	echo -n "Nothing entered! Script will be stopped!"
 fi
