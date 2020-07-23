@@ -1,0 +1,12 @@
+# IDE's and editors files
+.idea/
+.vscode/
+
+# JS-modules and dependencies
+node_modules/
+
+# Bulding files
+dist/
+
+# MacOS specify file
+.DS_Store
